@@ -1,0 +1,96 @@
+/*body
+{
+    font-family: sans-serif;
+}*/
+.calcontainer
+{
+    height: 500px;
+    width: 350px;
+    background-color:#fff9e6;
+    transform: translateX(100%) ;
+    box-shadow: -4px -4px 5px #ffffff50, 3px 3px 15px #00000050;
+}
+.calheading
+{
+    font-family: sans-serif;
+    padding: 30px;
+    color: darkmagenta;
+}
+.calworking
+{
+    font-family: sans-serif;
+    font-size: large;
+    padding:30px;
+}
+select{
+    border:none;
+    padding:8px;
+    border-bottom:1px solid rgb(255, 196, 169);
+}
+select:focus{
+    outline: none;
+}
+.salary
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+button
+{
+    background-color: rosybrown;
+    padding:10px;
+    transform: translateX(105px) translateY(35%);
+    color: seashell;
+}
+a:link.user
+{
+    color:#4d004d;
+    text-decoration: none;
+}
+a:visited.user
+{
+    color: #4d004d;
+    text-decoration: none;
+}
+a:hover.user
+{
+    color: maroon;
+    text-decoration: none;
+}
+a:active.user
+{
+    color: #4d004d;
+    text-decoration: none;
+}
+#freelancing
+{
+    font-family:sans-serif;
+    font-size: 20px;
+}
+a:link.fpts
+{
+    color:#4d004d;
+    text-decoration: none;
+}
+a:visited.fpts
+{
+    color: #4d004d;
+    text-decoration: none;
+}
+a:hover.fpts
+{
+    color: mediumvioletred;
+    text-decoration: none;
+}
+a:active.fpts
+{
+    color: #4d004d;
+    text-decoration: none;
+}
+.wifi
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

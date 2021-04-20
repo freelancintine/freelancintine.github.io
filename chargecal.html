@@ -94,21 +94,42 @@ freelancintine
 </div>
 <div class="column right" style="background-color:#fff9e6; box-shadow: -4px -4px 5px #ffffff50, 3px 3px 15px #00000050;border-radius:25px">
   <!--AASTHA YOU HAVE TO START YOUR CODE HERE-->
-<h1>About freelancitine...</h1>
-<p>
-There is no getting around it: you are shut in your house and do not know what to do to pass the time.<br/>
-Life right now is almost totally online. <br/>
-We made this guide to show you how the web can help you through this difficult time.<br/>
-
-So, we have taken the initiative to make you familiarise with the concept of <b> Freelancing </b>, providing information and resources which can come handy.<br/>
-
-
-<b><i><q>Opportunities to find deeper powers within ourselves come when life seems most challenging.</q></i></b>
-</p>
+ <div class="calcontainer">
+   <h1 class="calheading">What to charge???</h1>
+   <p class="calworking">
+    Enter your career field
+    <br>
+    <select name="" id="careers">
+      <option disabled selected hidden value="0">select</option>
+      <option value="1">Accountant</option>
+      <option value="3">Copywriter</option>
+      <option value="4">Graphic Designer</option>
+      <option value="8">Software Engineer</option>
+      <option value="9">Technical Writer</option>
+      <option value="10">Web Developer</option>
+      <option value="11">Writer</option>
+    </select>
+    <br><br>
+    Enter years of experience
+    <br>
+    <select id="experience">
+      <option disabled selected hidden value="0">select</option>
+      <option value="1">Beginner(0-3years)</option>
+      <option value="2">Intermediate(3-7years)</option>
+      <option value="3">Professionals(7-15years)</option>
+      <option value="4">Expert Level(15+years)</option>  
+    </select>
+    <br>
+    <button type="button" id="calculate" >Submit</button>
+   </p>
+   <p id="Salary" class="salary">
+   </p>
+   
+ </div>
   <!--AND END IT TILL THIS COMMENT-->
-<div>
 </div>
 <p></p>
 </div>
+<script src="chargecalculator.js"></script>
 </body>
 </html>

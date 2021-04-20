@@ -4,6 +4,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="style.css">
 <style>
 {*margin:0; padding:0;}
 body{background:#e6cab3;}
@@ -19,10 +20,14 @@ box-shadow: -4px -4px 5px #ffffff50, 3px 3px 15px #00000050}
 .container3{display:flex; justify-content:center; align-items:right; flex-direction:column;}
 .neu3{height:65px; width:200px; background:#e6cab3; border-radius:25px;
 box-shadow: -4px -4px 5px #ffffff50, 3px 3px 15px #00000050}
+.container4{display:flex; justify-content:center; align-items:right; flex-direction:column;}
+.neu4{height:65px; width:200px; background:#e6cab3; border-radius:25px;
+box-shadow: -4px -4px 5px #ffffff50, 3px 3px 15px #00000050}
 .neu:hover{box-shadow:inset -4px -4px 5px #ffffff50, 3px 3px 15px #00000050 }
 .neu1:hover{box-shadow:inset -4px -4px 5px #ffffff70, 3px 3px 15px #00000070; }
 .neu2:hover{box-shadow:inset -4px -4px 5px #ffffff70, 3px 3px 15px #00000070; }
 .neu3:hover{box-shadow:inset -4px -4px 5px #ffffff70, 3px 3px 15px #00000070; }
+.neu4:hover{box-shadow:inset -4px -4px 5px #ffffff70, 3px 3px 15px #00000070; }
 * {
   box-sizing: border-box;
 }
@@ -62,42 +67,50 @@ freelancintine
 <div class="column left" style="background-color:#e6cab3;">
 <div class="container">
 <div class="neu">
-  <h2 align="center" style="color:#4d004d;"><a href="index.html">Home Page</a></h2>
+  <h2 align="center" style="color:#4d004d;"><a href="index.html" class="user">Home Page</a></h2>
 </div>
 </div>
 <br>
 <div class="container1">
 <div class="neu1">
-  <h2 align="center" style="color:#4d004d;"><a href="SECTION1.html">Freelancing</a></h2>
+  <h2 align="center" style="color:#4d004d;"><a href="SECTION1.html" class="user" >Freelancing</a></h2>
 </div>
 </div>
 <br>
 <br>
 <div class="container3">
 <div class="neu3">
-  <h2 align="center" style="color:#4d004d;"><a href="ProfileBuilding.html">Profile Building</a></h2>
+  <h2 align="center" style="color:#4d004d;"><a href="ProfileBuilding.html" class="user">Profile Building</a></h2>
 </div>
 </div>
+<br>
+<br>
+<div class="container4">
+  <div class="neu4">
+    <h2 align="center" style="color:#4d004d;"><a href="chargecal.html" class="user">Charge Calculator</a></h2>
+  </div>
+  </div>
 </div>
-<div class="column right" style="background-color:#fff9e6; box-shadow: -4px -4px 5px #ffffff50, 3px 3px 15px #00000050;border-radius:25px">
+<div class="column right" style="background-color:#fff9e6; box-shadow: -4px -4px 5px #ffffff50, 3px 3px 15px #00000050;border-radius:25px; padding:30px;" id="freelancing" >
   <!--AASTHA YOU HAVE TO START YOUR CODE HERE-->
-
+<div style="align:center;">
 <h2>TABLE OF CONTENTS</h2>
 <ul>
 
-<li><h4><a href="#wiafl">Who is a <b> Freelancer </b> ? </a></h4></li>
+<li><h4><a href="#wiafl" class="fpts">Who is a <b> Freelancer </b> ? </a></h4></li>
 
-<li><h4><a href="#pac">Pros and Cons of <b> Freelancing </b></a></h4></li>
+<li><h4><a href="#pac" class="fpts">Pros and Cons of <b> Freelancing </b></a></h4></li>
 
-<li><h4><a href="#mcf">Most Common Carrer Fields in <b> Freelancing </b> ? </a></h4></li>
+<li><h4><a href="#mcf" class="fpts">Most Common Carrer Fields in <b> Freelancing </b> ? </a></h4></li>
 
-<li><h4><a href="#wtf">Where to find the <b> WORK </b> ? </a></h4></li>
+<li><h4><a href="#wtf" class="fpts">Where to find the <b> WORK </b> ? </a></h4></li>
 
-<li><h4><a href="#tc"> Traits and Characteristics needed to be a <b> Freelancer </b></a></h4></li>
-
+<li><h4><a href="#tc" class="fpts"> Traits and Characteristics needed to be a <b> Freelancer </b></a></h4></li>
+</div>
 <p id="wiafl"><h3>Who is a Freelancer? </h3>
 A freelancer, or independent contractor, is a self-employed individual who does not have to commit to a single, long-term employer. 
-Instead, they work independently for several different companies or clients. 
+Instead, they work independently for several different companies or clients.<br><br>
+<img src="whatisfreelancing.jpg" alt="img not available" class="wifi"><br><br>
 Freelancers typically charge by the hour or day and are not required to register as a business if they operate under their own name.<br/>
 Today, the term is often associated with writers, photographers, editors, programmers, website designers, and professional consultants, 
 as well as many other professional services.
